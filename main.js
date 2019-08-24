@@ -30,7 +30,7 @@ function addItem(e) {
 
 function deleteItem(e) {
   if (e.target.classList.contains("delete")) {
-    if (confirm("Are you sure?")) e.target.parentElement.remove();
+    if (confirm("Are you sure you want to delete this item?")) e.target.parentElement.remove();
     // console.log(e.target.parentElement);
   }
 }
